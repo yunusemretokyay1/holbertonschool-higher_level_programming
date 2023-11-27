@@ -1,6 +1,24 @@
 #!/usr/bin/python3
-Square = __import__('0-square').Square
+"""A module for square"""
 
-my_square = Square()
-print(type(my_square))
-print(my_square.__dict__)
+
+class Square:
+    """Represent a square."""
+    pass
+
+vi 1-square
+
+#!/usr/bin/python3
+"""Square module."""
+
+
+class Square:
+    """Defines a square."""
+
+    def __init__(self, size):
+        """Constructor.
+        Args:
+            size: length of side of the square.
+        """
+        self.__size = size
+
